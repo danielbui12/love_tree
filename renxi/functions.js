@@ -54,3 +54,7 @@ function timeElapse(date){
 	var result = "<span class=\"digit\">" + days + "</span> ngày <span class=\"digit\">" + hours + "</span> giờ <span class=\"digit\">" + minutes + "</span> phút <span class=\"digit\">" + seconds + "</span> giây"; 
 	$("#clock").html(result);
 }
+
+function playMusic() {
+	$('audio')[0].play()
+}

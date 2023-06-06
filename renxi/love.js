@@ -169,7 +169,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-            ctx.fillText("Open !", 23, 10);
+            ctx.fillText("Chạm vào <3 anh", 23, 10);
             ctx.restore();
         },
         clear: function() {
@@ -525,9 +525,10 @@
         }
     }
 
+
+
     window.random = random;
     window.bezier = bezier;
     window.Point = Point;
     window.Tree = Tree;
-
 })(window);
